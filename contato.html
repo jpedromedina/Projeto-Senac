@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="habilidades.html">Habilidades</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+    
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <form class="form" action="http://formsubmit.co/jpedromedina@hotmail.com" method="POST">
+                <h2 class="apresentacao__conteudo__texto">Entre em contato</h2>
+
+                <label class="apresentacao__conteudo__texto" for="nome">Nome</label>
+                <input class="apresentacao__conteudo__texto" type="text" name="name" placeholder="Preencha seu nome" id="nome" required>
+
+                <label class="apresentacao__conteudo__texto" for="email">E-mail</label>
+                <input class="apresentacao__conteudo__texto" type="email" name="e-mail" placeholder="Preencha seu e-mail" id="email" required>
+
+                <label class="apresentacao__conteudo__texto" for="email">Mensagem</label>
+                <textarea class="apresentacao__conteudo__texto" name="message" id="textarea" placeholder="Digite sua messagem" cols="30" rows="10"></textarea>
+                
+                <input class="apresentacao__conteudo__texto" type="hidden" name="_next" value="https://127.0.0.1:5500/email-enviado.html">
+                <button class="apresentacao__conteudo__texto" type="submit">Enviar</button>
+            </form>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/JPMC.jpg" alt="foto do João" width="150px">
+
+    </main>
+    
+    <footer>
+        <div class="Logos">
+            <a href="https://cursos.alura.com.br/" target="_blank">
+                <img class="rodape" src="./assets/Logo Alura Include.svg" alt="Logo da Alura" width="70px">;
+            </a>
+
+        <a href="https://www.sp.senac.br/" target="_blank">
+            <img class="rodape" src="./assets/1200px-Senac_logo.svg.png" alt="Logo Senac" width="70px">;
+        </a>
+        </div>
+        <p class="rodape"> Desenvolvido por João Medina Dev</p>
+    </footer>
+
+</body>
+</html>
