@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 1 REM é igual a 16px */
+
+:root{
+    --cor-primaria: #524733;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #D1B584;
+    --cor-hover: #BDCDD6;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.form {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form h2 {
+    color: antiquewhite;
+    font-size: 32px;
+    margin-bottom: 16px;
+
+}
+
+.form label {
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.form input {
+    height: 40px;
+
+}
+
+.form input, .form textarea {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+
+}
+
+.form input:focus, .form textarea:focus {
+    outline: 2px solid blanchedalmond;
+
+}
+
+.form button {
+    height: 40px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 12px;
+
+}
