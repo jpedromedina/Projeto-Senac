@@ -111,13 +111,13 @@ body{
 
 .rodape{
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    /*background-color: var(--cor-terciaria);
     padding: 16px;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse;*/
     display: flex;
     padding: 2% 10% 2% 15%;
-    align-items: center;
-    text-align: center;
+    /*align-items: center;
+    text-align: center;*/
     font-family: var(--fonte-secundaria);
     font-size: 1rem;
     font-weight: 300;
@@ -198,7 +198,16 @@ body{
 .Logos {
     display: flex;
     gap: 4rem;
-    row-gap: 2rem;
+    /*row-gap: 2rem;
     column-gap: 2rem;;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse;*/
+    justify-conten: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-terciaria);
 }
